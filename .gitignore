@@ -36,3 +36,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# env
+.env
+.env.local
+.env.production.local
+
+# Python / Backend
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+seismos-backend/data/raw/
+seismos-backend/data/cache/
+seismos-backend/models/artifacts/*.pkl
+seismos-backend/models/artifacts/*.pt
+seismos-backend/static/spectrograms/
